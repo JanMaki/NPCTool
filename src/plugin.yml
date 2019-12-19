@@ -1,0 +1,12 @@
+main: site.jnmk.janmaki.npc_tool.NPCTool
+version: 1.0.0
+name: NPCTool
+author: JanMaki
+depend:
+  - Citizens
+
+commands:
+  npct:
+    description: npc tool command.
+    permission: npct.*
+    permission-message: §cYou do not have perms.
